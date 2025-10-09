@@ -1,16 +1,20 @@
-# AutoCSV Profiler Suite
+<h1 align="center">AutoCSV Profiler Suite</h1>
 
-**Multi-environment CSV data analysis orchestrator with isolated profiling engines**
+<p align="center"><strong>Multi-environment CSV data analysis orchestrator with isolated profiling engines</strong></p>
 
-[![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-blue.svg)](https://www.python.org/downloads/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![Conda Required](https://img.shields.io/badge/conda-required-orange.svg)](https://docs.conda.io/)
-[![Status: Beta](https://img.shields.io/badge/status-beta-yellow.svg)](#)
-[![Platform Support](https://img.shields.io/badge/platform-windows%20%7C%20macos%20%7C%20linux-lightgrey.svg)](#)
+<p align="center">
+<a href="https://www.python.org/downloads/"><img src="https://img.shields.io/badge/python-3.10%2B-blue.svg" alt="Python 3.10+"></a>
+<a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg" alt="License: MIT"></a>
+<a href="https://docs.conda.io/"><img src="https://img.shields.io/badge/conda-required-orange.svg" alt="Conda Required"></a>
+<img src="https://img.shields.io/badge/status-beta-yellow.svg" alt="Status: Beta">
+<img src="https://img.shields.io/badge/platform-windows%20%7C%20macos%20%7C%20linux-lightgrey.svg" alt="Platform Support">
+</p>
 
-AutoCSV Profiler Suite resolves dependency conflicts in data science through a multi-environment architecture that isolates profiling engines while providing a unified interface.
+<p align="center">AutoCSV Profiler Suite resolves dependency conflicts in data science through a multi-environment architecture that isolates profiling engines while providing a unified interface.</p>
 
-## Project Description and Key Features
+## Overview
+
+AutoCSV Profiler Suite is a multi-environment CSV data analysis orchestrator that solves dependency conflicts between profiling engines through isolated conda environments. The system provides a unified interface while running YData Profiling, SweetViz, DataPrep, and custom statistical analysis in separate environments to prevent package version conflicts
 
 ### Problem Statement
 
@@ -47,6 +51,7 @@ Data science projects face dependency conflicts between profiling engines and st
 **Complete installation instructions**: [Installation Guide](docs/INSTALLATION.md)
 
 **Quick setup:**
+
 ```bash
 # 1. Clone and navigate
 git clone https://github.com/dhaneshbb/autocsv-profiler-suite.git
@@ -60,11 +65,13 @@ python bin/setup_environments.py create --parallel
 **Run analysis:**
 
    First, explore available analysis options:
+
    ```bash
    python bin/run_analysis.py --help
    ```
 
    Then start the interactive analysis:
+
    ```bash
    python bin/run_analysis.py
    ```
@@ -145,6 +152,7 @@ python bin/run_analysis.py
 ```
 
 Interactive mode includes:
+
 1. File selection with validation
 2. Delimiter detection (with manual override)
 3. Engine selection based on availability
@@ -196,21 +204,25 @@ except ImportError:
 ## Documentation
 
 **Getting Started:**
+
 - [Installation Guide](docs/INSTALLATION.md) - Environment setup instructions
 - [Getting Started Tutorial](docs/tutorials/getting_started.md) - Step-by-step walkthrough
 - [User Guide](docs/USER_GUIDE.md) - Reference for daily usage
 
 **Technical Reference:**
+
 - [API Documentation](docs/api/) - Technical API reference
 - [Architecture Guide](docs/ARCHITECTURE.md) - Multi-environment design
 - [Performance Guide](docs/PERFORMANCE.md) - Optimization and benchmarks
 
 **Development:**
+
 - [Development Guide](docs/DEVELOPMENT.md) - Environment setup and workflow
 - [Design Decisions](docs/DESIGN_DECISIONS.md) - Architectural decision records
 - [Troubleshooting Guide](docs/TROUBLESHOOTING.md) - Common issues and solutions
 
 **Examples:**
+
 - [Examples Directory](docs/examples/) - samples
 - [Engine Testing Guide](docs/api/engines/ENGINE_TESTING.md) - Engine testing procedures
 
@@ -224,11 +236,16 @@ MIT License - see [LICENSE](LICENSE) file. Third-party dependencies have various
 
 **Important**: See [DISCLAIMER](DISCLAIMER) for liability limitations and dependency responsibility.
 
-## Support
+## Links
 
-- **Issues**: [GitHub Issues](https://github.com/dhaneshbb/autocsv-profiler-suite/issues)
-- **Questions**: [GitHub Discussions](https://github.com/dhaneshbb/autocsv-profiler-suite/discussions)
+- **Repository**: <https://github.com/dhaneshbb/autocsv-profiler-suite>
+- **Documentation**: <https://github.com/dhaneshbb/autocsv-profiler-suite/tree/main/docs>
+- **Issues**: <https://github.com/dhaneshbb/autocsv-profiler-suite/issues>
+- **Changelog**: [CHANGELOG.md](CHANGELOG.md)
+- **License**: [MIT License](LICENSE)
 
 ---
 
 **Version 2.0.0** | **Beta** | **Python 3.10-3.13** | **Cross-Platform**
+
+Copyright 2025 dhaneshbb | License: MIT | Homepage: <https://github.com/dhaneshbb/autocsv-profiler-suite>
