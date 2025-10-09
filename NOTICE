@@ -1,6 +1,15 @@
 AutoCSV Profiler Suite
 Copyright (c) 2025 dhaneshbb
 
+DEMONSTRATION MATERIALS:
+Screenshots and demonstration materials in this repository may show third-party
+applications and software for demonstration purposes only. This includes but is
+not limited to file managers, preview tools, and system utilities. All product
+names, trademarks, and registered trademarks appearing in demonstration materials
+are the property of their respective owners. The appearance of third-party
+applications in demonstration materials does not imply endorsement, sponsorship,
+or affiliation with those products or their owners.
+
 DISTRIBUTION SCOPE:
 This project distributes only:
 - Python source code (MIT License)
